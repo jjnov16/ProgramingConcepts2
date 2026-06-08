@@ -19,7 +19,7 @@ def get_valid_ticket_count(remaining_tickets):
             print("Please enter a valid whole number.")
 
 
-def run_ticket_sales():
+def handle_ticket_sales():
     """
     Main loop function that processes ticket sales and manages the accumulators.
     """
@@ -49,4 +49,4 @@ def run_ticket_sales():
 
 # Run the program
 if __name__ == "__main__":
-    run_ticket_sales()
+    handle_ticket_sales()
