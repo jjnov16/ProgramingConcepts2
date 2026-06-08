@@ -26,7 +26,7 @@ def run_ticket_sales():
     # Accumulators
     tickets_sold = 0
     total_buyers = 0
-    total_tickets = 20
+    total_tickets = 10
 
     # Loop: Run until all tickets are sold out
     while tickets_sold < total_tickets:
