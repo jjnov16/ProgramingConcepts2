@@ -6,7 +6,7 @@ def get_valid_ticket_count(remaining_tickets):
     while True:
         try:
             # Input: Prompting the user
-            requested = int(input(f"Tickets remaining ({remaining_tickets}). How many do you want (1-4)? "))
+            requested = int(input(f"Tickets remaining ({remaining_tickets}). How many tickets? (1-4)? "))
 
             # If statement: Check if the request exceeds valid bounds
             if requested < 1 or requested > 4:
